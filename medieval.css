@@ -1,0 +1,200 @@
+.navpreto{
+    height: 92px;
+    width: 100%;
+    align-items:center;
+    display:flex;
+    justify-content: space-between;
+    background-color:black;
+    position:fixed;
+    top:0;
+    z-index: 9999;
+}
+    .social_media{
+        display:flex;
+        justify-content:flex-end;
+        padding-right: 12px;
+}        
+
+#logo{
+    display:flex;
+    justify-content:flex-start;
+    padding-left:12px
+    }
+
+ .itens{
+ display: inline-block;
+padding-right: 12px;  
+ }
+
+ .itens:hover{
+ color: #CFAA35; 
+ }
+
+ header{
+    background-image: url(pedra.jpeg);   
+ }
+   
+
+     p{
+     font-size: 20px;
+     color: white;   
+     }   
+
+     .banner {
+        width: 100%;
+        height: 600px;
+        overflow: hidden;
+      }
+      
+      .banner img {
+        width: 100%;
+        height: 600px;
+        object-fit: cover;
+      }
+
+.container{
+display: flex; 
+  
+padding-right: 40px;
+padding-left: 40px;
+border-radius: 10px;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+.texto{
+color: white; 
+margin-right: 25px;
+line-height: 50px;
+font-size: 14px;
+}
+
+body{
+background-color: black;    
+overflow-x: hidden;  
+}
+
+.Localização{
+color: white; 
+text-align: center;   
+background-color: #CFAA35;
+padding-top: 10px;
+}
+.mapa{
+ display: flex;
+justify-content: space-evenly;
+}
+.mapa2{
+    display: flex;
+   justify-content: space-evenly;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   }
+
+footer{
+    display: flex;
+background-color: black; 
+color: white;  
+text-align: center; 
+font-size: 12px; 
+width: 100%;
+height: 92px;
+bottom: 0;
+align-items: center;
+} 
+
+
+.cardapio {
+background-color: #CFAA35;    
+border-radius: 15px;
+width: 100%;
+height: 1400px;
+padding-top: 100px;
+padding-bottom: 20px;
+padding-right: 40px;
+padding-left: 40px;
+color: white;
+  }
+
+#titulo{
+text-align: center; 
+padding-bottom: 30px;   
+padding-right: +70px;
+}  
+
+.cardapio1 {
+position: relative;
+display:inline-flex;
+}
+  
+
+  .textoc {
+    visibility: hidden;
+    width: 400px;
+    background-color: black;
+    color: white;
+    text-align: justify;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    
+  }
+  
+  .comida:hover + .textoc {
+    visibility: visible;
+  }
+
+.comida{
+padding-right: 25px;  
+padding-bottom: 25px;
+}  
+
+.Localizaçãopage{
+background-color: #CFAA35; 
+width: 100%; 
+padding-top: 100px;
+color: white; 
+text-align: center;
+}
+
+.contato{
+padding-top: 100px;
+width: 100%; 
+height: 500px;
+background-color: #CFAA35;  
+color: white;
+padding-right: 30px;
+padding-left: 30px;
+
+}
+
+#titulocontato{
+color: white;  
+align-items: center;
+text-align: center;
+font-size: 40px;
+padding-right: +70px;
+}
+
+.flex{
+display: flex;  
+justify-content: space-evenly;
+padding-right: 40px;
+vertical-align: baseline;
+}
+.aligned-list{
+list-style-type:none;
+padding: 0;  
+}
+
+.aligned-list li{
+display: inline;
+margin-right: 10px;
+}
+
+
+
+
+  
