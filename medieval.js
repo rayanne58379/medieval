@@ -7,5 +7,5 @@ function changeImage() {
   document.getElementById("bannerImg").src = images[currentIndex];
 }
 // Troca de imagem a cada 3 segundos (3000 milissegundos)
-setInterval(changeImage, 7000)
+setInterval(7000)
 
