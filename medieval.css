@@ -313,6 +313,24 @@ padding-bottom: 20px;
   padding-bottom: 20px;   
 }
 
+.quiz{
+  
+
+  padding-left: 20px;
+  padding-right: 20PX;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  
+  background-color: hsla(0, 0%, 100%, 0.4);
+  border-radius: 30px;
+  color: black;
+
+  border-left:#CFAA35 10px solid;
+  border-right:#CFAA35 10px solid;
+  text-align: left;
+
+
+}
 
 
 
